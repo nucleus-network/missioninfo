@@ -1,0 +1,112 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding: 30px;
+  max-width: 1000px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 2.4em;
+  margin: 0 0 0 0;
+}
+
+a {
+  color: #3897c1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 140%;
+  color: rgba(0,0,0,.5);
+  font-size: 1em;
+}
+
+p.description {
+  color: #D3627F;
+  border-left: solid 2px #EF9AB6;
+  background: #fae6ea;
+  margin: 1em 0 2em 0;
+  font-size: 1.5em;
+  line-height: 145%;
+  padding: 1em;
+  font-style: italic;
+}
+
+p.objectives {
+  font-size: 1.2em;
+  line-height: 160%;
+}
+
+h2, h3 {
+  font-size: 1.6em;
+}
+
+h2 {
+
+  font-weight: normal;
+}
+
+h3 {
+  border-bottom: solid 1px #bbb;
+  padding: 0 0 .5em 0;
+  margin: 2em 0 1.5em 0;
+  font-weight: normal;
+}
+
+/* Activity Styles */
+
+.activity {
+  padding-left: 200px;
+  position: relative;
+  margin-bottom: 3.5em;
+  min-height: 200px;
+}
+
+.activity h1 {
+  font-size: 1.4em;
+  margin: 0 0 2px 0;
+  padding: 0;
+}
+
+.activity h1 a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.activity h1 a:hover {
+  text-decoration: underline;
+}
+
+
+.activity .subheading {
+  font-style: italic;
+  font-size: 1.2em;
+  margin: 0;
+  font-weight: 300;
+  color: rgba(0,0,0,.6);
+}
+
+.activity img {
+  position: absolute;
+  left: 0px;
+  width: 170px;
+  top: 2px;
+}
+
+.author {
+  background: #F3F3F3;
+  padding: 5px 12px;
+  display: inline-block;
+  margin-bottom:0;
+}
+
+.kit-author {
+  font-size: 1.2em;
+  margin: .3em 0 .5em 0;
+
+}
