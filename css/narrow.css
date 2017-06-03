@@ -1,0 +1,153 @@
+/* For narrow viewports */
+
+@media all and (max-width: 600px) {
+
+  [mode=step] .activity-title {
+    margin: 0 0 5px 0;
+  }
+
+  .agenda > li > h1 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    margin: 0 0 25px 0;
+  }
+
+  .total-time {
+    margin: 20px 0 0px 0;
+  }
+
+  .step-time {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+
+  .wrapper {
+    min-height: auto;
+  }
+
+  article.main {
+    padding: 30px 25px 30px 25px;
+    margin-top: 50px;
+  }
+
+  aside {
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+  }
+
+  aside .image {
+    display: none;
+  }
+
+  .agenda-navigation {
+    margin: 0;
+    display: flex;
+    overflow-x: auto;
+    position: relative;
+  }
+
+  /*  This is the little arrow when there are scrolling steps*/
+  .agenda-navigation:after {
+    display: none;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    color: white;
+    height: 58px;
+    content:  "\f105";
+    font-family: FontAwesome;
+    padding: 18px 15px 18px 25px;
+    font-size: 22px;
+    color: rgba(255,255,255,.4);
+    box-sizing: border-box;
+    background-image: linear-gradient(90deg, rgba(201,39,81,0), #C92751 80%);
+  }
+
+  .agenda-navigation li {
+    flex: 1;
+    position: relative;
+    min-width: 40px;
+  }
+
+  .agenda-navigation li a {
+    padding: 18px 0;
+  }
+
+  .agenda-navigation li:after {
+    pointer-events: none;
+    position: absolute;
+    border: none !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding-top: 17px;
+    border: none;
+  }
+
+  .agenda-navigation li:nth-child(1):after {
+    top: 10px !important;
+    left: calc(50% - 10px);
+    opacity: 1;
+
+  }
+
+  .agenda-navigation li a {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    }
+
+  .activity-menu {
+    display: block;
+    padding: 0;
+    left: 0;
+    box-sizing: border-box;
+    border: solid 1px rgba(0,0,0,.05);
+    top: 0;
+    margin-bottom: 15px;
+    font-size: 1em;
+  }
+
+  .activity-menu .toggle {
+    padding: 15px 20px;
+    box-sizing: border-box;
+  }
+
+  .activity-menu .toggle:after {
+    float: right;
+  }
+
+  .activity-menu .activity-list {
+    margin: 0;
+    width: auto;
+    padding-left: 20px;
+    padding: 10px 20px 12px 40px;
+  }
+
+  .activity-menu .toggle:hover,.activity-menu .toggle.menu-open {
+    padding-bottom: 15px;
+  }
+
+  .overview .skills-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .skills-list h5 {
+    display: block;
+    font-weight: bold;
+    margin: 12px 0 5px 0;
+    color: rgba(0,0,0,.6);
+    font-weight: 600;
+  }
+
+  .skills-list h5:after {
+    display: none;
+  }
+}
