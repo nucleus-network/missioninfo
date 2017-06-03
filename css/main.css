@@ -1,0 +1,712 @@
+body {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+}
+
+p, li, span {
+  color: rgba(0,0,0,.7);
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: normal;
+  position: relative;
+  margin: 0;
+}
+
+[mode="overview"] .activity-title a {
+  color: inherit;
+  text-decoration: none;
+  cursor: text;
+}
+
+.activity-title .meta {
+  display: block;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(0,0,0,.5);
+}
+
+.activity-title .meta a {
+  text-decoration: none;
+}
+
+.activity-title .meta a:hover {
+  text-decoration: underline;
+  color: #3897c1;
+  background: none;
+}
+
+hr {
+  background: #d84060;
+  width: 50%;
+  height: 2px;
+  border: none;
+  margin: 35px 0 45px 0;
+  position: relative;
+  left: 25%;
+  opacity: .3;
+}
+
+[mode=step] .activity-title {
+  font-size: 16px !important;
+  color: rgba(0,0,0,.5);
+  margin: 0;
+  font-weight: normal;
+  left: 0;
+}
+
+[mode=step] .activity-title .title {
+  color: rgba(0,0,0,.5);
+}
+
+
+[mode=step] .activity-title  * {
+  font-size: inherit !important;
+}
+
+[mode=step] .activity-title .meta {
+  display: inline;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+[mode=step] .activity-title .meta:after {
+  font-family: "FontAwesome";
+  content: "\f105";
+  padding-left: 8px;
+  color: rgba(0,0,0,.3);
+}
+
+.made-by {
+  margin: 8px 0 5px 0;
+  color: rgba(0,0,0,.5);
+}
+
+.summary {
+  color: #D3627F;
+  border-left: solid 2px #EF9AB6;
+  background: #fae6ea;
+  margin: 25px 0 35px 0;
+  font-size: 18px;
+  line-height: 145%;
+  padding: 20px ;
+  font-style: italic;
+}
+
+blockquote {
+  color: #D3627F;
+  border-left: solid 2px #EF9AB6;
+  background: #fae6ea;
+  margin: 25px 0 35px 0;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 20px;
+}
+
+blockquote a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.fancy blockquote {
+  background: transparent;
+  margin: 25px 0;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 0 0 0 20px;
+  background: rgba(255,255,255,.7);
+  padding: 20px 20px;
+  border-left: solid 2px rgba(203,35,79,.2);
+}
+
+h2 {
+  color: rgba(0,0,0,.65);
+  margin: 30px 0 20px 0;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+h3 {
+  color: rgba(0,0,0,.65);
+  margin: 40px 0 15px 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+h4,h5 {
+  color: rgba(0,0,0,.65);
+  margin: 40px 0 15px 0;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+b, strong {
+  font-weight: 600;
+  color: inherit;
+}
+
+a {
+  color: #3897c1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+article.main {
+  position: relative;
+  padding: 30px 40px 30px 50px;
+}
+
+article.main *:not(.activity-menu) {
+  max-width: 750px;
+}
+
+/* These are the activity steps */
+
+.agenda h1 {
+  border-bottom: solid 2px #DDD;
+  padding-bottom: 10px;
+  margin: 5px 0 30px 0;
+  text-indent: -3px;
+
+}
+
+.agenda ul,
+.agenda p,
+.agenda ol {
+  margin: 0 0 30px 0;
+}
+
+/* Left column Navigation */
+
+aside {
+  background: #D64262;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 300px;
+}
+
+aside .image {
+  position: relative;
+}
+
+aside .image.padded {
+  padding: 25px;
+}
+
+aside .image img {
+  width: 100%;
+  display: block;
+}
+
+aside .image .attribution {
+  position: absolute;
+  bottom: 11px;
+  right: 11px;
+  padding: 6px 10px 6px 10px;
+  font-size: 13px;
+  margin-left: 5px;
+  color: rgba(255,255,255,.7);
+  background: rgba(0,0,0,.3);
+  text-decoration: none;
+  transition: all .1s ease-out;
+  background-repeat: no-repeat;
+  border-radius: 2px;
+}
+
+aside .image .attribution i {
+  margin-right: 2px;
+}
+
+aside .image .attribution:hover {
+  background: rgba(0,0,0,.5);
+  color: rgba(255,255,255,.9);
+}
+
+.overview li:last-child,
+.agenda li:last-child {
+  border: none;
+}
+
+ul.agenda {
+  margin: 0;
+  padding: 0;
+}
+
+.agenda ul li {
+  line-height: 135%;
+  margin-bottom: 10px;
+}
+
+.agenda ol, .agenda ul, .overview ol, .overview ul {
+  padding-left: 25px;
+  margin-top: 15px;
+}
+
+.agenda ol li, .agenda ul li {
+  border-bottom: solid 1px #DDD;
+  margin: 0;
+  padding: 14px 0;
+}
+
+.overview ol li, .overview ul li {
+  margin: 0;
+  padding: 0 0 12px 0;
+}
+
+.overview ul li:not(.optional) + li.optional {
+  border-top: solid 1px rgba(0,0,0,.1);
+  padding-top: 10px;
+}
+
+.overview ul li.optional {
+  font-style: italic;
+  color: rgba(0,0,0,.5);
+}
+
+.overview ul li.optional:after {
+  content: " (Optional)";
+}
+
+.agenda ul {
+  list-style-type: disc;
+}
+
+.agenda > li {
+  list-style-type: none;
+}
+
+.agenda p {
+  line-height: 150%;
+}
+
+.agenda code {
+  padding: 1px 4px;
+  color: #D3627F;
+  background: #fae6ea;
+}
+
+.sessions {
+  background: #FFF1C5;
+}
+
+.start {
+  margin-top:10%;
+  text-align: right;
+}
+
+figcaption {
+  font-weight: 300;
+  font-style: italic;
+  color: #4d4e53;
+  padding-bottom:2%;
+  float:right;
+  font-size: 14px;
+}
+
+.activity-indicator {
+  padding: 8px 12px;
+  margin: 18px 0 0 0;
+  display: inline-block;
+  border-width: 0 0 0 2px;
+  padding: 8px 12px 10px 12px;
+  margin-right: 10px;
+}
+
+.time {
+  color:#3fb58e;
+  background: #caf6e6;
+  border-radius: 2px;
+  margin: 14px 0 0 0;
+  display: inline-block;
+  border-width: 0 0 0 2px;
+  padding: 8px 13px 8px 34px;
+  background-image: url(../images/clock.svg);
+  background-size: 18px;
+  background-position: 10px center;
+  background-repeat: no-repeat;
+}
+
+.agenda .time {
+  margin: 0 0 25px 0;
+}
+
+figure {
+  padding: 0 0 50px 0;
+  margin: 20px 0 0 0;
+}
+
+figure img {
+  display: block;
+  max-width: 100%;
+}
+
+.agenda img {
+  max-width: 100%;
+}
+
+.discussion-link {
+  border-top: solid 1px #DDD;
+  padding-top: 20px;
+  margin-top: 55px;
+  padding-bottom:0;
+  margin-bottom:0;
+}
+
+/* Agenda Navigation */
+
+.agenda-navigation {
+  padding: 0;
+  margin: 15px 0 80px 0;
+  list-style-type: none;
+  position: relative;
+}
+
+.agenda-navigation.fixed {
+  position: fixed;
+  top: 0;
+  width: 300px;
+}
+
+.agenda-navigation li {
+  position: relative;
+}
+
+.agenda-navigation li a {
+  display: block;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  transition: background .1s ease-out;
+}
+
+.agenda-navigation li.selected a {
+  background: #C92751;
+}
+
+.agenda-navigation li a {
+  padding-left: 60px;
+  color: rgba(255,255,255,.6);
+}
+
+.agenda-navigation a {
+  padding: 18px 22px;
+}
+
+.agenda-navigation a:hover {
+  background: #d13359;
+}
+
+.agenda-navigation li.selected a {
+  color: rgba(255,255,255,1);
+}
+
+.agenda-navigation li:after {
+  pointer-events: none;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  border: solid 2px rgba(255,255,255,.25);
+  color: rgba(255,255,255,.5);
+  border-radius: 50%;
+  width: 28px;
+  top: calc(50% - 15px);
+  left: 20px;
+  padding: 5px 0;
+  top: 11px;
+}
+
+.agenda-navigation li.selected:after {
+  border: solid 2px rgba(255,255,255,.8);
+  color: rgba(255,255,255,1);
+}
+
+.agenda-navigation li:nth-child(1):after {
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 27px;
+  top: 17px;
+  position: absolute;
+  border: none;
+  border-radius: 0;
+  background-image: url(../images/flag.svg);
+  background-size: 22px;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .4;
+  padding: 0;
+}
+
+.agenda-navigation li.selected:nth-child(1):after {
+  opacity: 1;
+}
+
+/* This adds the numbers to each agenda step link */
+
+.agenda-navigation li:nth-child(2):after {
+  content: "1";
+}
+
+.agenda-navigation li:nth-child(3):after {
+  content: "2";
+}
+
+.agenda-navigation li:nth-child(4):after {
+  content: "3";
+}
+
+.agenda-navigation li:nth-child(5):after {
+  content: "4";
+}
+
+.agenda-navigation li:nth-child(6):after {
+  content: "5";
+}
+
+.agenda-navigation li:nth-child(7):after {
+  content: "6";
+}
+
+.agenda-navigation li:nth-child(8):after {
+  content: "7";
+}
+
+.agenda-navigation li:nth-child(9):after {
+  content: "8";
+}
+
+.agenda-navigation li:nth-child(10):after {
+  content: "9";
+}
+
+.agenda-navigation li:nth-child(11):after {
+  content: "10";
+}
+
+.agenda-navigation li:nth-child(12):after {
+  content: "11";
+}
+
+.agenda-navigation li:nth-child(13):after {
+  content: "12";
+}
+
+.agenda-navigation li:nth-child(14):after {
+  content: "13";
+}
+
+.agenda-navigation li:nth-child(15):after {
+  content: "14";
+}
+
+.agenda-navigation li:nth-child(16):after {
+  content: "15";
+}
+
+.agenda-navigation li:nth-child(17):after {
+  content: "16";
+}
+
+.next-up {
+  background: #eee;
+  padding: 20px 30px 20px 30px;
+  text-align: right;
+  position: relative;
+}
+
+.next-up .arrow {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  padding: 0 5px;
+  position: relative;
+  top: -2px;
+}
+
+/* Web & 21st Century Skills lists */
+
+.skills-list h5 {
+  font-size: 1em;
+  display: inline-block;
+  margin: 0;
+  color: rgba(0,0,0,.6);
+  font-weight: 600;
+}
+
+.skills-list h5:after {
+  content: "\2192";
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  padding-left: 4px;
+  margin-right: 1px;
+  color: rgba(0,0,0,.2);
+}
+
+.skills-list a {
+  display: inline-block;
+  margin: 3px 3px 3px 0;
+  padding: 8px 13px 8px 13px;
+  border-radius: 2px;
+  color: #3897c1;
+  background: rgba(56,151,193,.2);
+  transition: background .1s ease-out;
+}
+
+.skills-list a:hover {
+  background: rgba(56,151,193,.3);
+  text-decoration: none;
+}
+
+.overview .skills-list li {
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+
+/* Fancy red list */
+
+ul.fancy, ol.fancy {
+  background: #fae6ea;
+  color: #D3627F;
+  border-radius: 2px;
+  margin: 20px 0 35px 0;
+  padding: 8px 35px 8px 40px;
+  border-left: solid 2px rgba(203,35,79,.2);
+}
+
+ul.fancy {
+  list-style-type: disc;
+}
+
+.fancy li, .agenda .fancy li {
+  color: #D3627F;
+  border-bottom: solid 1px rgba(203,35,79,.15);
+  padding: 14px 0 !important;
+}
+
+.fancy li:last-child {
+  border-bottom: none;
+}
+
+.fancy a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* List of activities in a module */
+
+[mode=step] .activity-menu {
+  display: none;
+}
+
+.activity-menu {
+  border-bottom: solid 1px rgba(0,0,0,.05);
+  background: rgba(0,0,0,.05);
+  color: rgba(0,0,0,.5);
+  top: -30px;
+  left: -50px;
+  width: 100%;
+  padding-right: 90px;
+  text-align: left;
+  position: relative;
+  transition: padding .2s ease-out;
+  font-size: 14px;
+}
+
+.activity-menu .toggle {
+  display: block;
+  cursor: pointer;
+  color: rgba(0,0,0,.8);
+  padding: 12px 0 12px 20px;
+  width: 100%;
+  padding-right: 40px;
+  opacity: .7;
+  transition: padding .15s ease-out;
+}
+
+.activity-menu .toggle.menu-open:after {
+  transform: rotate(180deg);
+}
+
+.activity-menu .toggle:hover {
+  text-decoration: none;
+}
+
+.activity-menu .toggle:after {
+  content: "";
+  margin-left: 10px;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: url(../images/down-angle.svg) no-repeat right;
+  opacity: .4;
+  background-size: 16px;
+  position: relative;
+  top: 2px;
+  transition: transform .2s ease-out;
+}
+
+.activity-menu ol {
+  padding: 5px 0 13px 42px;
+  overflow: auto;
+  margin: 0;
+  width: 100%;
+  display: none;
+}
+
+.activity-menu li {
+  color: rgba(0,0,0,.4);
+  padding: 10px 0px;
+  border-bottom: solid 1px rgba(0,0,0,.1);
+  position: relative;
+  padding-left: 5px;
+  float: left;
+  clear: both;
+}
+
+.activity-menu li:first-child {
+  padding-top: 4px;
+}
+
+.activity-menu li:last-child {
+  border-bottom: none;
+}
+
+.activity-menu li.current > a {
+  font-weight: bold;
+}
+
+.activity-menu li .extension {
+  display: inline-block;
+  padding-top: 10px;
+  color: rgba(0,0,0,.5);
+  margin-left: 15px;
+  position: relative;
+}
+
+.activity-menu li .extension:before {
+  content: "\00b7";
+  font-weight: bold;
+  padding: 0 4px;
+  left: -16px;
+  line-height: 1em;
+  top: 10px;
+  font-size: 1.5em;
+  position: absolute;
+}
+
+.image-caption {
+  font-size: .8em;
+  font-style: italic;
+}
