@@ -1,0 +1,73 @@
+@media print {
+
+  h1.activity-title {
+    font-size: 30px;
+  }
+
+  .agenda h1 {
+    font-size: 30px;
+  }
+
+  body {
+    font-size: 15px !important;
+  }
+
+  article {
+    padding: 0 10px !important;
+  }
+
+  p.summary {
+    padding: 0;
+    background: transparent;
+    font-size: 15px;
+  }
+
+  .time {
+    border: solid 2px #DDD;
+    color: #999 !important;
+    border-width: 2px 2px 2px 2px;
+    background: transparent;
+  }
+
+  figure {
+    max-width: 65%;
+  }
+
+  .btn {
+    border: solid 2px #BBB !important;
+    color: #999 !important;
+    border-width: 2px 2px 2px 2px !important;
+    background: transparent !important;
+    padding: 8px;
+    font-size: 15px;
+  }
+
+  aside {
+    display: none !important;
+  }
+
+  .discussion-link {
+    display: none !important;
+  }
+
+  .agenda {
+    margin-top: 30px !important;
+  }
+
+  .main ul li {
+    line-height: 100%;
+  }
+
+  .agenda > li {
+    margin-top: 55px !important;
+    display: block !important;
+    position: relative !important;
+  }
+
+  .agenda > li .step-time {
+    right: 2px !important;
+    top: 0 !important;
+    padding: 8px;
+    font-size: 15px;
+  }
+}
