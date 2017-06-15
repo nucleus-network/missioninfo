@@ -9,6 +9,8 @@ Mozilla's Mission:Information Curriculum
 <p>This open-source curriculum project is hopefully the start of something bigger. These three lessons serve as a foundation to help teens develop news and web literacy skills, but there is a lot of room to grow. Here are some ways to get involved. 
 <ul>
 <li>Fork, remix, and adapt this project to use with your learners</li>
+<li>Visit our <a href="https://github.com/civicparty/legitometer">Legit-O-Meter site</a> to learn more about the online app we're developing for this curriculum and discover ways to get involved</li>
 <li>Test out this curriculum with your learners and provide feedback</li>
-<li>Get in touch with quesitons and ideas</li>
+<li>Check out our <a href="https://fakenews.open-austin.org/">roadmap</a> and project milestones</li>
+<li><a href="mailto:info@nucleuslearningnetwork.org">Get in touch</a> with questions and ideas</li>
 </ul>
