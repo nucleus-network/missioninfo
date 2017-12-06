@@ -7,7 +7,7 @@
 ### Who created Mission:Information?
 <p>This curriculum was developed by Nucleus Learning Network, Open Austin, and The Austin Monitor in partnership with Mozilla.</p>
 
-<strong> What are some ways to get involved and learn more? </strong>
+### What are some ways to get involved and learn more?
 <p>This open-source curriculum project is hopefully the start of something bigger. These three lessons serve as a foundation to help teens develop news and web literacy skills, but there is a lot of room to grow. Here are some ways to get involved. 
 <ul>
 <li>Fork, remix, and adapt this project to use with your learners</li>
@@ -18,7 +18,7 @@
 <li><a href="mailto:info@nucleuslearningnetwork.org">Get in touch</a> with questions and ideas</li>
 </ul>
 
-<strong> What are the next steps for the project? </strong>
+### What are the next steps for the project? 
 <p>Glad you asked! Here are some plans and next steps to continue to grow the Mission:Information project in 2018 and beyond. If any of these avenues of work sound interesting, please get in touch!</p>
 <ul>
   <li>Find ways to connect this curriculum to younger learners, whether by adapting it, creating additional lessons, or connecting it to existing resources</li>
