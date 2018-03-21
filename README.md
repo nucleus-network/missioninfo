@@ -15,6 +15,7 @@
   <li> Build apps and tools. If you have technology skills and are inspired by this lesson, feel free to go wild developing associated apps and tools. </li>
   <li>Get involved with the Mozilla Global Sprint</li>
   <li>Get involved with the Mission:Information project more generally. See below for more details!</li>
+  </ul>
 
 ### What are some ways to get involved and learn more about Mission:Information?
 <p>This open-source curriculum project is hopefully the start of something bigger. These three lessons serve as a foundation to help teens develop media and web literacy skills, but there is a lot of room to grow. Here are some ways to get involved.</p> 
