@@ -17,7 +17,7 @@
   <li>Get involved with the Mission:Information project more generally. See below for more details!</li>
   </ul>
 
-### What are some ways to get involved and learn more about Mission:Information?
+### What else is going on with Mission:Information?
 <p>This open-source curriculum project is hopefully the start of something bigger. These three lessons serve as a foundation to help teens develop media and web literacy skills, but there is a lot of room to grow. Here are some ways to get involved.</p> 
 <ul>
 <li>Remix, and adapt this project to use with your learners</li>
