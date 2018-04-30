@@ -4,8 +4,8 @@
 ### :mag: What is Mission:Information? :mag:
 <p>Mission:Information is an open-source and interactive curriculum that helps teens develop media and web literacy skills, and have some fun while doing so. This curriculum was created as a way to help teens deal with fake news and misinformation that they might encounter online. A main goal of this curriculum is to empower learners to become strong consumers, producers, and distributors of news and media.</p> 
 
-### Who created Mission:Information?
-<p>This curriculum was developed by Nucleus Learning Network, Open Austin, and The Austin Monitor in partnership with Mozilla. This project follows <a href="https://www.mozilla.org/en-US/about/governance/policies/participation/">Mozilla's Community Participation Guidelines</a>. Visit the link to learn more!</p>
+### 🤔 Who created Mission:Information? 🤔
+<p>This curriculum was initially developed by Nucleus Learning Network, Open Austin, and The Austin Monitor in partnership with Mozilla. Currently, this project is run by Sarah Morris from Nucleus Learning Network. This project follows <a href="https://www.mozilla.org/en-US/about/governance/policies/participation/">Mozilla's Community Participation Guidelines</a>. Visit the link to learn more!</p>
 
 ### What work is being done currently and how can I get involved? 
 <p>Sarah Morris from Nucleus Learning Network is currently a Mozilla Open Leaders Fellow and is working on a new computer science lesson to supplement the original three Mission:Information Lessons. This new lesson will help learners gain a new perspective on misinformation and fake news by focusing on algorithms, and will help learners continue to strengthen their media and web literacy skills. </p>
