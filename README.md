@@ -19,6 +19,7 @@
 <p>Sarah Morris from Nucleus Learning Network is currently a Mozilla Open Leaders Fellow and is working on a new computer science lesson to supplement the original three Mission:Information Lessons. This new lesson will help learners gain a new perspective on misinformation and fake news by focusing on algorithms, and will help learners continue to strengthen their media and web literacy skills. </p>
 <p>Here are some ways that you can get involved!</p>
 <ul>
+  <li>See the Project Docs above for more detailed information about ways to get involved and skills needed</li>
   <li>Provide feedback and ideas here on GitHub, on Gitter, or via this <a href="https://docs.google.com/document/d/13vd5r2vM5gJkISBDT-MH4eRRW7Qic5JO1brYQjYr5Us/edit?usp=sharing">Google Doc</a>. </li>
   <li>Get involved with the <a href="https://mozilla.github.io/global-sprint/">Mozilla Global Sprint</a> on May 10-11.</li>
   <li><a href="mailto:info@nucleuslearningnetwork.org">Get in touch</a> with questions and ideas</li>
@@ -26,14 +27,15 @@
   </ul>
   
   ### :globe_with_meridians: What is going on during the 2018 Global Sprint? :globe_with_meridians:
-  <p>During the sprint I am looking for more people to test, provide feedback, share ideas, remix and expand, and, most importantly, build community around this topic. See the Issues page for ways to get started and disucssion topics. As a current solo project owner I'll be available as much as possible during the Sprint, but there might be some lag times in responses! I'm located in the US in the Central Time Zone and will be available during buisness hours (8am-5pm) to answer questions.</p>
+  <p>During the sprint I am looking for more people to test, provide feedback, share ideas, remix and expand, and, most importantly, build community around this topic. See the Issues page for ways to get started and disucssion topics. </p>
+<p>  As a current solo project owner I'll be available as much as possible during the Sprint, but there might be some lag times in responses! I'm located in the US in the Central Time Zone and will be available during buisness hours (8am-5pm) to answer questions.</p>
 
 ### :newspaper: What else is going on with Mission:Information? :newspaper:
 <p>This open-source curriculum project is hopefully the start of something bigger. The three existing lessons serve as a foundation to help teens develop media and web literacy skills, but there is a lot of room to grow. Here are some ways to get involved.</p> 
 <ul>
 <li>Remix, and adapt this project to use with your learners</li>
   <li>Help guide the project by providing feedback with this <a href="https://goo.gl/forms/MYnxLXbkMf66SgyP2">brief survey</a></li>
-  <li>Build upon this project lessons, apps, remixes, etc.</li>
+  <li>Build upon this project with lessons, apps, remixes, etc.</li>
 <li>Visit our <a href="https://github.com/civicparty/legitometer">Legit-O-Meter site</a> to learn more about the an online app being developed for this curriculum, and discover ways to get involved</li>
 <li>Test out this curriculum with your learners and provide <a href="https://goo.gl/forms/BvobLqfZpsgIS0WD2">feedback</a></li>
 <li>Check out the <a href="http://www.missioninfo.net">Mission:Information project portal</a> for news, updates, and related materials</li>
