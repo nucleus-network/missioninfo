@@ -22,7 +22,7 @@
   <li>See the Project Docs above for more detailed information about ways to get involved and skills needed</li>
   <li>Provide feedback and ideas here on GitHub, on Gitter, or via this <a href="https://docs.google.com/document/d/13vd5r2vM5gJkISBDT-MH4eRRW7Qic5JO1brYQjYr5Us/edit?usp=sharing">Google Doc</a>. </li>
   <li>Get involved with the <a href="https://mozilla.github.io/global-sprint/">Mozilla Global Sprint</a> on May 10-11.</li>
-  <li><a href="mailto:info@nucleuslearningnetwork.org">Get in touch</a> with questions and ideas</li>
+  <li>Get in touch with questions or ideas via <a href="mailto:info@nucleuslearningnetwork.org">email</a> or <a href="https://gitter.im/Mission-Information/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link">Gitter</a>.</li>
   <li>Get involved with the Mission:Information project more generally. See below for more details!</li>
   </ul>
   
@@ -39,7 +39,7 @@
 <li>Visit our <a href="https://github.com/civicparty/legitometer">Legit-O-Meter site</a> to learn more about the an online app being developed for this curriculum, and discover ways to get involved</li>
 <li>Test out this curriculum with your learners and provide <a href="https://goo.gl/forms/BvobLqfZpsgIS0WD2">feedback</a></li>
 <li>Check out the <a href="http://www.missioninfo.net">Mission:Information project portal</a> for news, updates, and related materials</li>
-<li><a href="mailto:info@nucleuslearningnetwork.org">Get in touch</a> with questions and ideas</li>
+<li>Get in touch with questions or ideas via <a href="mailto:info@nucleuslearningnetwork.org">email</a> or <a href="https://gitter.im/Mission-Information/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link">Gitter</a>.</li>
 </ul>
 
 ### :confetti_ball: What are the next steps for the project? :confetti_ball:
