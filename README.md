@@ -5,7 +5,7 @@
 <p>Mission:Information is an open-source and interactive curriculum that helps teens develop media and web literacy skills, and have some fun while doing so. This curriculum was created as a way to help teens deal with fake news and misinformation that they might encounter online. A main goal of this curriculum is to empower learners to become strong consumers, producers, and distributors of news and media.</p> 
 
 ### 🤔 Who created Mission:Information? 🤔
-<p>This curriculum was initially developed by Nucleus Learning Network, Open Austin, and The Austin Monitor in partnership with Mozilla. Currently, this project is run by Sarah Morris from Nucleus Learning Network. This project follows <a href="https://www.mozilla.org/en-US/about/governance/policies/participation/">Mozilla's Community Participation Guidelines</a>. Visit the link to learn more!</p>
+<p>This curriculum was initially developed by Nucleus Learning Network, Open Austin, and The Austin Monitor in partnership with Mozilla. Currently, this project is run by Sarah Morris from Nucleus Learning Network. This project follows <a href="https://www.mozilla.org/en-US/about/governance/policies/participation/">Mozilla's Community Participation Guidelines</a>. Visit the link to learn more and check out the project's <a href="https://github.com/nucleus-network/missioninfo/edit/master/CONTRIBUTING.md">Contributing guidelines</a> for futher information.</p>
 
 ### :clipboard: Project Documents :clipboard:
 <p>See the following documents for detailed information on how to get involved with the project, what types of skills you need to get involved, resources to learn more, and next steps with the project.</p>
@@ -27,7 +27,7 @@
   </ul>
   
   ### :globe_with_meridians: What is going on during the 2018 Global Sprint? :globe_with_meridians:
-  <p>During the sprint I am looking for more people to test, provide feedback, share ideas, remix and expand, and, most importantly, build community around this topic. See the Issues page for ways to get started and disucssion topics. </p>
+  <p>During the sprint I am looking for more people to test, provide feedback, share ideas, remix and expand, and, most importantly, build community around this topic. See the Issues page for ways to get started and disucssion topics. If you make a contribution during the sprint (thank you!) you'll receive a virtual high-five and a shoutout in an acknowledgement page (unless you prefer not to be included). </p>
 <p>  As a current solo project owner I'll be available as much as possible during the Sprint, but there might be some lag times in responses! I'm located in the US in the Central Time Zone and will be available during buisness hours (8am-5pm) to answer questions.</p>
 
 ### :newspaper: What else is going on with Mission:Information? :newspaper:
