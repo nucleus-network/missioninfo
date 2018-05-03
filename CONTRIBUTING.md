@@ -2,29 +2,30 @@
 
 :+1: :tada: First off, thanks for taking the time to contribute! :tada: :+1:
 
-This project has received contributions from some wonderful volunteers. Our goal is to make it easy for you to jump in and help.
+This project has received contributions from some wonderful volunteers. Here is some information to help you better jump in and contribute, should you be so inclined! 
 
 ## What should I know before I get started?
 
 ### Code of Conduct
-This project adheres to the Contributor Covenant [code of conduct](CONTRIBUTING.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to info {at} nucleuslearningnetwork {dot} org.
+This project adheres to <a href="https://www.mozilla.org/en-US/about/governance/policies/participation/">Mozilla's Community Participation Guidelines</a>. By participating, you are expected to uphold this code of conduct. Please report unacceptable behavior to info {at} nucleuslearningnetwork {dot} org.
 
 ### README
-Our [README](README.md) is the first place you should go, if you haven't already. If you have questions about the goals or purpose of the project, we'd be happy to clarify. [Create an issue](https://github.com/nucleus-network/missioninfo/issues/new) and mark it with the "question" label.
-
-### Roadmap
-Our <a href="https://fakenews.open-austin.org/ ">Roadmap</a> is written to give you an idea of the current status of the project. Check it out to see what we are up to, our past milestones, and upcoming targets!
+Our [README](README.md) is the first place you should go, if you haven't already. If you have questions about the goals or purpose of the project, please get in touch via the channels outlined below. You can also [Create an issue](https://github.com/nucleus-network/missioninfo/issues/new) and mark it with the "question" label.
 
 ### Communication
-We communicate in a couple different ways:
- 1. Github -  You can [open an issue](https://github.com/nucleus-network/missioninfo/issues/new) to start a discussion here within Github. The project leads will get an email with your message and we will do our best to respond promptly.
- 2. IRL - Come to an Open Austin Civic Hack Night and let's chat in person.
+You can communicate in a couple of different ways:
+ 1. Github -  You can [open an issue](https://github.com/nucleus-network/missioninfo/issues/new) to start a discussion here within Github. 
+ 2. Get in touch with questions or ideas via <a href="mailto:info@nucleuslearningnetwork.org">email</a> 
+ 3. Get in touch over <a href="https://gitter.im/Mission-Information/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link">Gitter</a>
 
 ## How can I help?
+See the <a href="https://docs.google.com/document/d/17dozqONdSuU_ddTVfG4mL95zxmYzmAz6__mu3WR6goI/edit?usp=sharing">Engagement Ladder document</a> linked in the Readme for detailed information on how you can contribute. 
 
-Over the course of this project, we will have (or have had) opportunities to help with design, development, testing, and more. To contribute, you can:
+## Thank you!
+First, thank you for taking the time to contribute!
 
-- Report a bug or request a feature by opening a new issue.
-- Review [open issues](https://github.com/nucleus-network/missioninfo/issues) and leave a comment if you'd like to help or if you need more information.
+If you are able to contribute to an open issue during the Global Sprint, you’ll receive a virtual high-five and a shoutout on an acknowledgment page (unless you’d prefer I not name you - just let me know!).
 
-Issues with the help wanted label indicate where the best place to start are, but contributions are welcome on any open issue. Please leave a comment before you start working in case work is underway from another contributor.
+In the future, if you review a lesson plan, leave your project information and I will be happy to check out your work and share feedback.
+
+If you're interested in taking on a bigger role in the project, or if you have ideas about how we can work together, please get in touch! 
