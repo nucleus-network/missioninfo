@@ -27,7 +27,8 @@
   </ul>
   
   ### :globe_with_meridians: What is going on during the 2018 Global Sprint? :globe_with_meridians:
-  <p>During the sprint I am looking for more people to test, provide feedback, share ideas, remix and expand, and, most importantly, build community around this topic. See the <a href="https://github.com/nucleus-network/missioninfo/issues">Issues</a> page for ways to get started and disucssion topics. If you make a contribution during the sprint (thank you!) you'll receive a virtual high-five and a shoutout in an acknowledgement page (unless you prefer not to be included). </p>
+  <p>During the sprint I am looking for more people to test, provide feedback, share ideas, remix and expand, and, most importantly, build community around this topic. See the <a href="https://github.com/nucleus-network/missioninfo/issues">Issues</a> page for ways to get started and disucssion topics. See this <a href="https://docs.google.com/document/d/13vd5r2vM5gJkISBDT-MH4eRRW7Qic5JO1brYQjYr5Us/edit?usp=sharing">Google Doc</a> where we can brainstorm and share ideas around a new lesson on algorithms. </p>
+  <p>If you make a contribution during the sprint (thank you!) you'll receive a virtual high-five and a shoutout in an acknowledgement page (unless you prefer not to be included). </p>
 <p>  As a current solo project owner I'll be available as much as possible during the Sprint, but there might be some lag times in responses! I'm located in the US in the Central Time Zone and will be available during buisness hours (8am-5pm) to answer questions.</p>
 
 ### :newspaper: What else is going on with Mission:Information? :newspaper:
